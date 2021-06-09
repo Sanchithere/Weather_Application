@@ -1,0 +1,18 @@
+.headingStyle {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: cursive;
+}
+.outerBox {
+  margin: 25%;
+}
+h1 {
+  background: antiquewhite;
+}
+.buttonClass {
+  height: 30px;
+  color: crimson;
+}
+.inputBoxClass {
+  border-width: 7px;
+}
