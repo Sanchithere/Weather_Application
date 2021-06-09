@@ -6,6 +6,7 @@ const newPathToRefer = path.join(__dirname, "../public");
 
 const app = express();
 app.set("view engine", "hbs");
+const port = process.env.PORT || 3000;
 
 app.use(express.static(newPathToRefer));
 
@@ -31,4 +32,4 @@ app.get("/weather", (req, res) => {
   });
 });
 
-app.listen(3000);
+app.listen(port);
